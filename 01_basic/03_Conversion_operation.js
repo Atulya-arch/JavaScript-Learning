@@ -49,14 +49,30 @@
 // console.log(typeof stringNum);
 
 //**************************************Operations******************************************
-let value = 12
-let negVal = -value
-console.log(negVal)
+// let value = 12
+// let negVal = -value
+// console.log(negVal)
 
-console.log(2+2)
-console.log(2-2)
-console.log(2*2)
-console.log(2/2)
-console.log(2**3)
-console.log(2%3)
+// console.log(2+2)
+// console.log(2-2)
+// console.log(2*2)
+// console.log(2/2)
+// console.log(2**3)
+// console.log(2%3)
 
+// let str1 = "Atulya"
+// let str2 = " Chaturvedi"
+// str3 = str1 + str2
+// console.log(str3);
+
+// console.log("1" + 2);
+// console.log(1 + "2");
+// console.log("1" + 2 + 2);
+// console.log(1 + 2 + "2");
+
+console.log(+true);
+console.log(+"");
+
+let num1, num2, num3
+num1 = num2 = num3 = 2 + 2
+console.log(num1 + num2 + num3);
