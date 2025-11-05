@@ -33,4 +33,3 @@ console.log("B ", arr);
 const n2 = arr.splice(1, 3)
 console.log(n2);
 console.log("C ", arr);
-
