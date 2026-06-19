@@ -75,4 +75,30 @@ price += units * 4.2;
 console.log(price);
 
 // INR Denominations:
-let 
+let total = Number(prompt("What is the total number of notes? "));
+let notes = 0;
+if(total >= 500) {
+    notes = Math.floor(total / 500);
+    total %= 500;
+}
+if(total >= 200 && total <= 499) {
+    notes += Math.floor(total / 200);
+    total %= 200;
+}
+if(total >= 100 && total <= 199) {
+    notes += Math.floor(total / 100);
+    total %= 100;
+}
+if(total >= 50 && total <= 99) {
+    notes += Math.floor(total / 50);
+    total %= 50;
+}
+if(total >= 20 && total <= 49) {
+    notes += Math.floor(total / 20);
+    total %= 20;
+}
+if(total >= 10 && total <= 19) {
+    notes += Math.floor(total / 10);
+    total %= 10;
+}
+console.log(notes + total);
